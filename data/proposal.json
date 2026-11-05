@@ -1,0 +1,17 @@
+{
+  "_memo": "提案資料（下書き）の見出し。sections の順番がそのまま画面の順番になる。文章はここを書き換えれば反映される。",
+  "fileName": "みなと食品様_提案資料（下書き）",
+  "intro": "AIアシスタントの返答を「📋 コピー」して、見出しの「ここに貼る」を押すと入ります。",
+  "emptyText": "（まだ空です）",
+  "pasteButton": "📋 ここに貼る",
+  "clearButton": "空にする",
+  "noClipboard": "先にAIアシスタントの返答をコピーしてください。",
+  "copied": "コピーしました。提案資料や、ほかの画面に貼れます。",
+  "pasted": "貼り付けました。",
+  "sections": [
+    { "id": "market", "heading": "1. 市場の動き" },
+    { "id": "strength", "heading": "2. みなと食品さんの強みと課題" },
+    { "id": "competitor", "heading": "3. 競合との比較" },
+    { "id": "offer", "heading": "4. ご提案内容" }
+  ]
+}

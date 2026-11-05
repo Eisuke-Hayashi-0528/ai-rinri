@@ -1,0 +1,8 @@
+node_modules/
+dist/
+
+# このパソコンだけの設定（公開しない）
+.claude/settings.local.json
+
+# 講義をもとにした参考資料（手元にだけ置き、公開しない）
+docs/gamification-framework.md

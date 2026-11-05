@@ -1,0 +1,75 @@
+{
+  "_memo": "ノベル場面（会話で読み進める場面）。characters に登場人物、scenes に場面ごとのセリフを書く。speaker を書かない行は地の文（ナレーション）。character を書くと、その人物の絵が出る。face に \"serious\" と書くと真剣な顔になる（書かないと笑顔）。background は office（席）・meeting（会議室）・call（電話）。人物・会社はすべて架空。",
+  "ui": {
+    "next": "次へ",
+    "skip": "飛ばす",
+    "narration": ""
+  },
+  "characters": {
+    "sato": { "name": "佐藤 課長", "color": "#3b5b8a", "tie": "#c0392b" },
+    "tanaka": { "name": "田中さん（みなと食品）", "color": "#5e7d5a", "hair": "#4a3428", "longHair": true },
+    "me": { "name": "あなた" }
+  },
+  "scenes": {
+    "opening": {
+      "background": "office",
+      "lines": [
+        { "text": "月曜の朝。席についてPCの電源を入れたところで、足音が近づいてくる。" },
+        { "speaker": "sato", "character": "sato", "text": "おはよう。ちょっといい？" },
+        { "speaker": "me", "character": "sato", "text": "あ、おはようございます。" },
+        { "speaker": "sato", "character": "sato", "text": "来週、みなと食品さんに提案に行くことになってね。その資料、木曜までにお願いできるかな。" },
+        { "speaker": "sato", "character": "sato", "text": "市場のデータと、競合との比較も入れておいてほしい。先方、数字が好きだから。" },
+        { "speaker": "me", "character": "sato", "text": "木曜まで……ですか。" },
+        { "speaker": "sato", "character": "sato", "text": "最近はほら、AIとか使えばすぐできるんでしょ？" },
+        { "speaker": "sato", "character": "sato", "text": "細かいことはメールで送っておくから。よろしくね。" },
+        { "text": "課長は足早に会議室へ向かっていった。" },
+        { "speaker": "me", "text": "（すぐ、って言われても……。とりあえず、メールを見てみよう）" }
+      ]
+    },
+    "call-minato": {
+      "background": "call",
+      "lines": [
+        { "speaker": "me", "character": "tanaka", "text": "はい、ひなた企画です。" },
+        { "speaker": "tanaka", "character": "tanaka", "text": "お世話になっております、みなと食品の田中です。来週のご提案の件で、少しよろしいですか？" },
+        { "speaker": "me", "character": "tanaka", "text": "はい、ちょうど資料を作り始めたところです。" },
+        { "speaker": "tanaka", "character": "tanaka", "text": "よかった。せっかくなので、うちの去年の商品別の売上表をお送りしますね。それも踏まえて分析してもらえると助かります。" },
+        { "speaker": "tanaka", "character": "tanaka", "text": "あ、社内の数字なので、外には出さないでくださいね。" },
+        { "speaker": "me", "character": "tanaka", "text": "承知しました。ありがとうございます。" },
+        { "text": "電話を切る。売上表があれば、分析もぐっと具体的になりそうだ。" }
+      ]
+    },
+    "ending-E1-01": {
+      "background": "meeting",
+      "lines": [
+        { "text": "木曜。みなと食品の会議室で、提案が始まった。" },
+        { "speaker": "tanaka", "character": "tanaka", "text": "この市場の数字、説得力がありますね。1兆2,400億円で、前年比108％ですか。" },
+        { "speaker": "tanaka", "character": "tanaka", "text": "出典の『日本食品マーケット白書』、うちでも読んでみたいです。URLを送っていただけますか？" },
+        { "speaker": "me", "character": "tanaka", "text": "はい、戻ったらすぐにお送りします。" },
+        { "text": "席に戻ってURLを開く。ページは見つからない。白書の名前で検索しても、何も出てこない。" },
+        { "speaker": "sato", "character": "sato", "face": "serious", "text": "……この数字、AIが出したものをそのまま載せた？" },
+        { "speaker": "me", "character": "sato", "face": "serious", "text": "はい……。出典まで書いてあったので、大丈夫だと思ってしまいました。" },
+        { "speaker": "sato", "character": "sato", "face": "serious", "text": "先方には、数字を確認し直してからご連絡しますって伝えておくよ。" },
+        { "speaker": "sato", "character": "sato", "text": "AIが出した数字やURLは、元の資料を自分で開いて確かめよう。そこまでが資料づくりだから。" }
+      ]
+    },
+    "ending-E2-01": {
+      "background": "office",
+      "lines": [
+        { "text": "金曜の朝。課長がいつもより硬い顔でやってきた。" },
+        { "speaker": "sato", "character": "sato", "face": "serious", "text": "情報システム部から連絡があってね。社外のAIサービスに、取引先の社外秘の資料が入力された記録があるって。" },
+        { "speaker": "sato", "character": "sato", "face": "serious", "text": "みなと食品さんの売上表……だよね。" },
+        { "speaker": "me", "character": "sato", "face": "serious", "text": "……分析してもらおうと思って、そのまま貼りました。" },
+        { "speaker": "sato", "character": "sato", "face": "serious", "text": "サービスによっては、入れた内容が学習に使われることもある。先方には、私から事情を説明しておわびしてくる。" },
+        { "speaker": "sato", "character": "sato", "text": "AIに入れる前に、『これが外に出たら困るか』を一度考えてほしい。数秒でいいから。" }
+      ]
+    },
+    "ending-E0-01": {
+      "background": "office",
+      "lines": [
+        { "text": "提出した資料を、課長がめくっていく。" },
+        { "speaker": "sato", "character": "sato", "text": "うん、間に合ったね。ありがとう。" },
+        { "speaker": "sato", "character": "sato", "text": "来週の提案、一緒にがんばろう。" }
+      ]
+    }
+  }
+}

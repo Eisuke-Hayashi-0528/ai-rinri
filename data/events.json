@@ -1,0 +1,19 @@
+{
+  "_memo": "仕事の途中で起きる出来事（電話など）。trigger は「どの操作が何回目のときに起きるか」。aiMessage＝AIに送った回数、paste＝資料に貼った回数。現実の秒数では急かさない（CLAUDE.md 0章）。1つの出来事は1回だけ起きる。scene は data/scenes.json の場面の名前。",
+  "events": [
+    {
+      "id": "call-minato",
+      "type": "call",
+      "trigger": { "action": "paste", "count": 1 },
+      "caller": "みなと食品 田中さん",
+      "scene": "call-minato",
+      "behavior": 2,
+      "thenMail": "tanaka-sales",
+      "memo": "取引先から売上表を渡される。それをAIに貼るかどうか（行動2）への伏線。電話を切ると thenMail のメールが届く"
+    }
+  ],
+  "ui": {
+    "incoming": "📞 着信",
+    "answer": "📞 出る"
+  }
+}
